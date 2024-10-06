@@ -1,0 +1,262 @@
+[
+    {
+        "id": 0,
+        "name": "Jalapeno krémsajtleves",
+        "description": "A legjobb csípős leves, amit valaha kitaláltak.",
+        "category": "Soups",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 1530,
+        "imageName": "img0"
+    },
+    {
+        "id": 1,
+        "name": "Guadalajara leves",
+        "description": "Egy sűrű fűszeres leves marhahússal, zöldségekkel, babbal, házi fűszerekkel és egy kis tejföllel. Sajttal töltött búza tortillával tálaljuk.",
+        "category": "Soups",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 1820,
+        "imageName": "img1"
+    },
+    {
+        "id": 2,
+        "name": "Kukorica krém leves",
+        "description": "Tálaláskor pirított bacont, bébikukoricát és chipset teszünk bele.",
+        "category": "Soups",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 1420,
+        "imageName": "img2"
+    },
+    {
+        "id": 3,
+        "name": "Iguana Brownie fagylalttal",
+        "description": "Az Iguana régi kedvence nagyon \"édesszájúaknak\"",
+        "category": "Desserts",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 1420,
+        "imageName": "img3"
+    },
+    {
+        "id": 4,
+        "name": "Churros",
+        "description": "Olajban sült tészta rudacskák csokoládéval.",
+        "category": "Desserts",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 1420,
+        "imageName": "img4"
+    },
+    {
+        "id": 5,
+        "name": "Mexikói Somlói",
+        "description": "Séfünk mexikói változata somlóira, ananásszal, karamellel és egy csepp tequilával az íze kedvéért.",
+        "category": "Desserts",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 1460,
+        "imageName": "img5"
+    },
+    {
+        "id": 6,
+        "name": "Pollo Burrito",
+        "description": "Fűszerekkel pácolt csirkemell csíkok, babpüré és sajt búza tortillába göngyölve. Paradicsomos rizzsel, babpürével tálaljuk. Édes salsát adunk hozzá.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 3780,
+        "imageName": "img6"
+    },
+    {
+        "id": 7,
+        "name": "Bab és sajt Burrito",
+        "description": "Babpüré és sajt búza tortillába göngyölve. Paradicsomos rizzsel, babpürével tálaljuk. Édes salsát adunk hozzá.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 3360,
+        "imageName": "img7"
+    },
+    {
+        "id": 8,
+        "name": "Monterrey Burrito",
+        "description": "Pácolt és grillezett Csirkemell csíkok, babpüré, tejföl, saláta, guacamole és sajt búza tortillába göngyölve. Paradicsomos rizzsel, babpürével tálaljuk. Édes salsát adunk hozzá.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 3950,
+        "imageName": "img7"
+    },
+    {
+        "id": 9,
+        "name": "Hagyományos Sajtos Quesadilla",
+        "description": "Egyszerű de fenséges. Tejföllel, paradicsommal, guacamoléval és jalapenoval tálaljuk.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 2970,
+        "imageName": "img9"
+    },
+    {
+        "id": 10,
+        "name": "Iguana Quesadilla - csirkével",
+        "description": "Grillezett egész búza tortilla sajttal, roston sült zöldpaprikával, hagymával és pácolt csirkemell csíkokkal töltve. Tejföllel, guacamoléval, jalapeno paprika szeletekkel és paradicsommal a tetején kínáljuk.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 3930,
+        "imageName": "img10"
+    },
+    {
+        "id": 11,
+        "name": "Csirkés Chimichanga",
+        "description": "A chimichanga egy ropogósra sütött burritó, tölteléke fűszeres csirkemell. Tejföllel, csípős chipotle salsával, guacamoléval és mexikói rizzsel tálaljuk.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 3800,
+        "imageName": "img11"
+    },
+    {
+        "id": 12,
+        "name": "Marhás Chimichanga",
+        "description": "A chimichanga egy ropogósra sütött burritó. Tölteléke csípős \"tinga\" marhahús, tejföllel, salsával, guacamoléval és mexikói rizzsel tálaljuk.\n(csípős)",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 4290,
+        "imageName": "img12"
+    },
+    {
+        "id": 13,
+        "name": "Tacos al Pastor",
+        "description": "A mexikóvárosi \"taqueria\"-k kedvence: fűszeres, pácolt sertés csíkok 4 puha kukorica tortillával, házi salsával és guacamoléval. Így tálald magadnak: Az előmelegített kukorica tortillákra tedd rá az elkészített húst majd a hagymát,koriandert és az ananászt. Végéhez érve facsard rá a friss lime-ot és tetszés szerint önts rá a salsából és/vagy a guacamoléból amit a csomagban megtalálsz.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 3900,
+        "imageName": "img13"
+    },
+    {
+        "id": 14,
+        "name": "Tacos Alejandro",
+        "description": "Fűszeres, pácolt csirkemell csíkok 4 db puha kukorica tortillával, mellette chipotle salsa (csípős), guacamole, friss hagyma és koriander. Így tálald magadnak: Az előmelegített kukorica tortillákra tedd rá az elkészített húst majd a hagymát és a koriandert. Végéhez érve facsard rá a friss lime-ot, és tetszés szerint önts rá a salsából és/vagy a guacamoléból, amit a csomagban megtalálsz.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 3900,
+        "imageName": "img14"
+    },
+    {
+        "id": 15,
+        "name": "Taco Adobo Pollo",
+        "description": "Három friss, puha kukoricatortillát adunk, mellé grillezett csirkemellcsík tölteléket, amit adobo chiliben pácoltunk, de nem csípős. Körete: babpüré, mexikói rizs, saláta, friss lime és paradicsom. Töltsd meg magadnak tetszés szerint a tacókat ezekkel az összetevőkkel. Salsát is adunk mellé.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 3780,
+        "imageName": "img15"
+    },
+    {
+        "id": 16,
+        "name": "Taco Carne Asada",
+        "description": "Három friss, puha kukoricatortillát adunk, mellé grillezett hátszíncsík tölteléket, ami csípős. Körete: babpüré, mexikói rizs, saláta, friss lime és paradicsom. Töltsd meg magadnak tetszés szerint a tacókat ezekkel az összetevőkkel. Salsát is adunk mellé.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 4390,
+        "imageName": "img16"
+    },
+    {
+        "id": 17,
+        "name": "Taco Bab & Sajt",
+        "description": "Három friss, puha kukoricatortillát adunk, mellé babpüré és sajt töltelékeket. Körete: babpüré, mexikói rizs, saláta, friss lime és paradicsom. Töltsd meg magadnak tetszés szerint a tacókat ezekkel az összetevőkkel. Salsát is adunk mellé.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 2850,
+        "imageName": "img16"
+    },
+    {
+        "id": 18,
+        "name": "Pollo Enchilada",
+        "description": "3 kukorica tortillát pácolt és grillezett csirkemell csíkokkal töltünk, pikáns házi Ranchera szósszal leöntjük, sajttal megszórjuk, mexikói rizst és babpürét tálalunk mellé.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 3690,
+        "imageName": "img18"
+    },
+    {
+        "id": 19,
+        "name": "Régimódi hagymás, sajtos Enchilada",
+        "description": "3 kukorica tortillát grillezett hagymával és sajttal töltünk, pikáns házi Ranchera szósszal leöntjük, sajttal megszórjuk, mexikói rizst és babpürét tálalunk mellé.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 3180,
+        "imageName": "img18"
+    },
+    {
+        "id": 20,
+        "name": "Enchilada Especiale",
+        "description": "3 kukorica tortilla csípős chipotle tinga szószban pácolt, darabolt marhahússal, csípős pikáns házi Especiale szósszal leöntve, sajttal megszórjuk, mexikói rizst és babpürét adunk mellé.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 3950,
+        "imageName": "img20"
+    },
+    {
+        "id": 21,
+        "name": "Carne Asada Enchilada",
+        "description": "3 kukorica tortilla csípős füstölt chipotle chiliben pácolt hátszíncsíkokkal töltve, pikáns házi Ranchera szósszal leöntve. Sajttal megszórjuk, mexikói rizst és babpürét adunk mellé.",
+        "category": "Main dishes",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 4370,
+        "imageName": "img21"
+    },
+    {
+        "id": 22,
+        "name": "Iguana Caesar",
+        "description": "Római salátára olivaolajat, parmezánt, fokhagymát, szardellapasztát, feketeborsot, citromlét öntünk és fokhagymás, pirított kenyérkockákat adunk hozzá.",
+        "category": "Salads",
+        "isFavorite": false,
+        "isPopular": false,
+        "price": 2800,
+        "imageName": "img22"
+    },
+    {
+        "id": 23,
+        "name": "Iguana Caesar Csirkével",
+        "description": "Római salátára olivaolajat, parmezánt, fokhagymát, szardellapasztát, feketeborsot, citromlét öntünk és fokhagymás, pirított kenyérkockákat adunk hozzá.",
+        "category": "Salads",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 3950,
+        "imageName": "img23"
+    },
+    {
+        "id": 24,
+        "name": "Caesar Saláta Királyrákkal",
+        "description": "Római salátára olivaolajat, parmezánt, fokhagymát, szardellapasztát, feketeborsot, citromlét öntünk, fokhagymás, pirított kenyérkockákat adunk hozzá és 5 db grillezett királyrákot.",
+        "category": "Salads",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 5190,
+        "imageName": "img24"
+    },
+    {
+        "id": 25,
+        "name": "Quinoa Saláta",
+        "description": "Quinoa grillezett kukoricával, fekete babbal, koktél paradicsommal, római salátával, lilahagymával, avokádóval és lime vinegrettel. Fenséges!",
+        "category": "Salads",
+        "isFavorite": false,
+        "isPopular": true,
+        "price": 2520,
+        "imageName": "img25"
+    }
+]

@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C63E4E71273D29E5005E965A /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63E4E70273D29E5005E965A /* DishModel.swift */; };
+		C63E4E75273D7B6B005E965A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63E4E74273D7B6B005E965A /* ModelData.swift */; };
+		C63F6EF32747D7B000529469 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F6EF22747D7B000529469 /* MenuListView.swift */; };
+		C63F6EF52747D9BF00529469 /* DishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F6EF42747D9BF00529469 /* DishView.swift */; };
+		C64D86352746CC7E00F5C382 /* mexiMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = C63E4E72273D7719005E965A /* mexiMenu.json */; };
+		C64EDDF4274BFE37004646F0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EDDF3274BFE37004646F0 /* MenuView.swift */; };
+		C64EDDF6274BFEB7004646F0 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EDDF5274BFEB7004646F0 /* FavoriteButton.swift */; };
+		C64EDDF8274C1AE9004646F0 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EDDF7274C1AE9004646F0 /* CategoryView.swift */; };
+		C64EDDFA274C2207004646F0 /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EDDF9274C2207004646F0 /* CategoryRowView.swift */; };
+		C64EDDFC274C26E6004646F0 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EDDFB274C26E6004646F0 /* CategoryItemView.swift */; };
+		C6543EE32752418F00A9D8BB /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6543EE22752418F00A9D8BB /* CartView.swift */; };
+		C6543EE527527ABE00A9D8BB /* AddToCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6543EE427527ABE00A9D8BB /* AddToCartView.swift */; };
+		C65C9C59273C0ACB00149AFD /* MexiFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65C9C58273C0ACB00149AFD /* MexiFoodApp.swift */; };
+		C65C9C5B273C0ACB00149AFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65C9C5A273C0ACB00149AFD /* ContentView.swift */; };
+		C65C9C5D273C0ACC00149AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65C9C5C273C0ACC00149AFD /* Assets.xcassets */; };
+		C65C9C60273C0ACC00149AFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65C9C5F273C0ACC00149AFD /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C63E4E70273D29E5005E965A /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		C63E4E72273D7719005E965A /* mexiMenu.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = mexiMenu.json; sourceTree = "<group>"; };
+		C63E4E74273D7B6B005E965A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		C63F6EF22747D7B000529469 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		C63F6EF42747D9BF00529469 /* DishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishView.swift; sourceTree = "<group>"; };
+		C64EDDF3274BFE37004646F0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		C64EDDF5274BFEB7004646F0 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		C64EDDF7274C1AE9004646F0 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		C64EDDF9274C2207004646F0 /* CategoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
+		C64EDDFB274C26E6004646F0 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		C6543EE22752418F00A9D8BB /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		C6543EE427527ABE00A9D8BB /* AddToCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartView.swift; sourceTree = "<group>"; };
+		C65C9C55273C0ACB00149AFD /* MexiFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MexiFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65C9C58273C0ACB00149AFD /* MexiFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexiFoodApp.swift; sourceTree = "<group>"; };
+		C65C9C5A273C0ACB00149AFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C65C9C5C273C0ACC00149AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C65C9C5F273C0ACC00149AFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65C9C52273C0ACB00149AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C63E4E76273D7C6A005E965A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C63E4E72273D7719005E965A /* mexiMenu.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C63E4E78273D7C95005E965A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C63E4E74273D7B6B005E965A /* ModelData.swift */,
+				C63E4E70273D29E5005E965A /* DishModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C63E4E79273D7CA8005E965A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C64EDDF2274BFDBF004646F0 /* Helpers */,
+				C64EDDF1274BFDAE004646F0 /* Pages */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C64EDDF1274BFDAE004646F0 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				C65C9C5A273C0ACB00149AFD /* ContentView.swift */,
+				C63F6EF22747D7B000529469 /* MenuListView.swift */,
+				C63F6EF42747D9BF00529469 /* DishView.swift */,
+				C64EDDF7274C1AE9004646F0 /* CategoryView.swift */,
+				C6543EE22752418F00A9D8BB /* CartView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		C64EDDF2274BFDBF004646F0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C64EDDF3274BFE37004646F0 /* MenuView.swift */,
+				C64EDDF5274BFEB7004646F0 /* FavoriteButton.swift */,
+				C64EDDF9274C2207004646F0 /* CategoryRowView.swift */,
+				C64EDDFB274C26E6004646F0 /* CategoryItemView.swift */,
+				C6543EE427527ABE00A9D8BB /* AddToCartView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C65C9C4C273C0ACB00149AFD = {
+			isa = PBXGroup;
+			children = (
+				C65C9C57273C0ACB00149AFD /* MexiFood */,
+				C65C9C56273C0ACB00149AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C65C9C56273C0ACB00149AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65C9C55273C0ACB00149AFD /* MexiFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65C9C57273C0ACB00149AFD /* MexiFood */ = {
+			isa = PBXGroup;
+			children = (
+				C63E4E76273D7C6A005E965A /* Resources */,
+				C63E4E78273D7C95005E965A /* Model */,
+				C65C9C58273C0ACB00149AFD /* MexiFoodApp.swift */,
+				C63E4E79273D7CA8005E965A /* Views */,
+				C65C9C5C273C0ACC00149AFD /* Assets.xcassets */,
+				C65C9C5E273C0ACC00149AFD /* Preview Content */,
+			);
+			path = MexiFood;
+			sourceTree = "<group>";
+		};
+		C65C9C5E273C0ACC00149AFD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C65C9C5F273C0ACC00149AFD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65C9C54273C0ACB00149AFD /* MexiFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65C9C63273C0ACC00149AFD /* Build configuration list for PBXNativeTarget "MexiFood" */;
+			buildPhases = (
+				C65C9C51273C0ACB00149AFD /* Sources */,
+				C65C9C52273C0ACB00149AFD /* Frameworks */,
+				C65C9C53273C0ACB00149AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MexiFood;
+			productName = MexiFood;
+			productReference = C65C9C55273C0ACB00149AFD /* MexiFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C65C9C4D273C0ACB00149AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C65C9C54273C0ACB00149AFD = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C65C9C50273C0ACB00149AFD /* Build configuration list for PBXProject "MexiFood" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C65C9C4C273C0ACB00149AFD;
+			productRefGroup = C65C9C56273C0ACB00149AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65C9C54273C0ACB00149AFD /* MexiFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65C9C53273C0ACB00149AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65C9C60273C0ACC00149AFD /* Preview Assets.xcassets in Resources */,
+				C65C9C5D273C0ACC00149AFD /* Assets.xcassets in Resources */,
+				C64D86352746CC7E00F5C382 /* mexiMenu.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65C9C51273C0ACB00149AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64EDDF4274BFE37004646F0 /* MenuView.swift in Sources */,
+				C64EDDFA274C2207004646F0 /* CategoryRowView.swift in Sources */,
+				C63F6EF52747D9BF00529469 /* DishView.swift in Sources */,
+				C65C9C5B273C0ACB00149AFD /* ContentView.swift in Sources */,
+				C64EDDF6274BFEB7004646F0 /* FavoriteButton.swift in Sources */,
+				C63E4E75273D7B6B005E965A /* ModelData.swift in Sources */,
+				C6543EE32752418F00A9D8BB /* CartView.swift in Sources */,
+				C6543EE527527ABE00A9D8BB /* AddToCartView.swift in Sources */,
+				C63F6EF32747D7B000529469 /* MenuListView.swift in Sources */,
+				C63E4E71273D29E5005E965A /* DishModel.swift in Sources */,
+				C65C9C59273C0ACB00149AFD /* MexiFoodApp.swift in Sources */,
+				C64EDDFC274C26E6004646F0 /* CategoryItemView.swift in Sources */,
+				C64EDDF8274C1AE9004646F0 /* CategoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C65C9C61273C0ACC00149AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C65C9C62273C0ACC00149AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C65C9C64273C0ACC00149AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MexiFood/Preview Content\"";
+				DEVELOPMENT_TEAM = NTHW4NH84J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = repasi.geri.MexiFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C65C9C65273C0ACC00149AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MexiFood/Preview Content\"";
+				DEVELOPMENT_TEAM = NTHW4NH84J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = repasi.geri.MexiFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65C9C50273C0ACB00149AFD /* Build configuration list for PBXProject "MexiFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65C9C61273C0ACC00149AFD /* Debug */,
+				C65C9C62273C0ACC00149AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65C9C63273C0ACC00149AFD /* Build configuration list for PBXNativeTarget "MexiFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65C9C64273C0ACC00149AFD /* Debug */,
+				C65C9C65273C0ACC00149AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C65C9C4D273C0ACB00149AFD /* Project object */;
+}
