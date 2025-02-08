@@ -7,7 +7,7 @@ It has 3 main pages, Offers, Menu and Shopping Cart with various features.
 - Each category is sideways scrollable
 - Tapping a dish shows more details
 
-![Offers: Offers Page](Screenshots/OffersPage.png)
+<img src="Screenshots/OffersPage.png" alt="Offers: Offers Page" width="500"/>
 
 ## Menu
 - Lists all dishes
@@ -16,14 +16,14 @@ It has 3 main pages, Offers, Menu and Shopping Cart with various features.
 - Filters can be combined (e.g. only favorite desserts)
 - Tap a specific dish for more details on it
 
-![Menu: Main Dishes](Screenshots/MenuPage_MainDishes.png)
+<img src="Screenshots/MenuPage_MainDishes.png" alt="Menu: Main Dishes" width="500"/>
 
 ## Dish Details
 - Add to favoirites
 - Add item to shopping cart
 - Specify the amount of selected dish to be added to the shopping cart with the "+" and "-" signs
 
-![Dish Details: Churros](Screenshots/DetailsPage2.png)
+<img src="Screenshots/DetailsPage2.png" alt="Dish Details: Churros" width="500"/>
 
 ## Shopping Cart
 - Shows the items currently in the shopping cart and how many of each of them have been added
@@ -32,4 +32,4 @@ It has 3 main pages, Offers, Menu and Shopping Cart with various features.
 - Dinamically changing total price of items in the shopping cart
 - Order button to place order
 
-![Shopping Cart: Cart Page](Screenshots/CartPage.png)
+<img src="Screenshots/CartPage.png" alt="Shopping Cart: Cart Page" width="500"/>
